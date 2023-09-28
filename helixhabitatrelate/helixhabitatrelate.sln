@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{ECA43694-D425-4779-9DDF-E3C2A4982D81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{990A834A-161E-40B7-A0A4-CF871F14A121}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{21F4CCCB-3BB5-45CE-AB0F-E9D4B64870BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{538E3C23-02DB-4ADD-9409-0DB264D5794F}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FAQ", "FAQ", "{5CC132CB-2C59-47EC-8CF4-C45287792520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helixhabitatrelate.Feature.FAQ", "src\Feature\FAQ\code\helixhabitatrelate.Feature.FAQ.csproj", "{27F8EBC4-856D-4C0D-B9E5-BA8189265E28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27F8EBC4-856D-4C0D-B9E5-BA8189265E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F8EBC4-856D-4C0D-B9E5-BA8189265E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F8EBC4-856D-4C0D-B9E5-BA8189265E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F8EBC4-856D-4C0D-B9E5-BA8189265E28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CC132CB-2C59-47EC-8CF4-C45287792520} = {ECA43694-D425-4779-9DDF-E3C2A4982D81}
+		{27F8EBC4-856D-4C0D-B9E5-BA8189265E28} = {5CC132CB-2C59-47EC-8CF4-C45287792520}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C85EF791-6FF6-4E29-82EE-D04FE05D1E34}
+	EndGlobalSection
+EndGlobal

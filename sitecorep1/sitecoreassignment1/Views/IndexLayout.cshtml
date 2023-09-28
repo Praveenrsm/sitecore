@@ -1,0 +1,9 @@
+﻿﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using System.Runtime.CompilerServices
+@{
+    var item = Sitecore.Context.Database.GetItem("{1487E19C-F820-4AF2-831F-34892AF3E1A9}");
+}
+<div>
+    @Html.Sitecore().Field("Name", item)
+</div>

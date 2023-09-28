@@ -1,0 +1,25 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using sitecoreassignment1.Models
+@model BannerViewModel
+<div class="about wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-6">
+                    <div class="about-img">
+                        @Html.Raw(HttpUtility.HtmlDecode(Model.imgTag)) 
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6">
+                    <div class="section-header text-left">
+                        <p>@Model.Title </p>
+                        <h2>@Model.sub_title</h2>
+                    </div>
+                    <div class="about-text">
+                        @Html.Raw(HttpUtility.HtmlDecode(Model.Description))
+                        <a href="http://sitecoreassignment1.local/About%20us" style="color:blue;background-color:black">Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
